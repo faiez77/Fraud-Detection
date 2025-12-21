@@ -49,3 +49,22 @@ Features are skewed → log-transform needed
 **ROC-AUC** → independent metric to evaluate ranking ability
 
 **Class_weight**='balanced' → handles rare fraud events
+
+--------
+
+Probability-based approach allows flexible threshold:
+
+Lower threshold → more fraud detected, more investigation
+
+Higher threshold → less investigation, some fraud missed
+
+Visualization shows separation of fraud vs non-fraud
+
+--------
+
+References
+
+Scikit-learn Logistic Regression(https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+
+Kaggle Credit Card Fraud Dataset(https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
